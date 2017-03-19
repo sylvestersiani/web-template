@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+header{
+	height: 60px;
+	background-color: green;
+	padding: 0 20px;
+}
+
+#company-logo{
+	background-color: red;
+	width: 20%;
+	height: 60px;
+	float: left;
+
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav #menu-links{
+	width: 80%;
+	float: left;
+	background-color: blue;
+}
+nav #menu-links li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+
+}
