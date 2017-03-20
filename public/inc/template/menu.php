@@ -2,10 +2,10 @@
 	<div id="company-logo"></div>
 	<nav>
 		<ul id="menu-links" >
-			<li><a href="#">yp</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">contact</a></li>
-			<li><a href="#">..</a></li>
+			<li><a href="#">home</a></li>
+			<li><a href="#">get involved</a></li>
+			<li><a href="#">trustees</a></li>
+			<li><a href="#">events</a></li>
 
 		</ul>
 	</nav>
