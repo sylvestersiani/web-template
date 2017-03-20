@@ -1,5 +1,7 @@
 <header>
-	<div id="company-logo"></div>
+	<div id="company-logo">
+		<div class="logo"></div>
+	</div>
 	<nav>
 		<ul id="menu-links" >
 			<li><a href="#">home</a></li>
