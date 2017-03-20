@@ -25,7 +25,7 @@
 					echo 'get involved';
 					break;
 				case 'trustees':
-					echo 'trustees';
+					include 'public/inc/pages/trustees.php';
 					break;
 				default:
 					# code...
