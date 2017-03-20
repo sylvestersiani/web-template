@@ -4,14 +4,18 @@
 }
 
 .wrapper{
-	max-width: 900px;
-	margin: 0 auto;
+	max-width: 1200px;
+	margin: auto;
 }
+
+/*section{
+	max-width: 900px;
+}*/
+
 
 header{
 	height: 60px;
 	background-color: green;
-	padding: 0 20px;
 	border-bottom: 4px solid gold;
 }
 
@@ -56,20 +60,34 @@ nav #menu-links li{
 
 }
 
+
+
+
+
+.text-segment{
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	max-width: 450px;
+	float: right;
+	line-height: 1.5em;
+	font-weight: 300;
+	opacity: 0.8;
+	margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
 	.text-segment{
-		background-color: #fff;
-		border-radius: 5px;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
-		width: 450px;
-		float: right;
-		line-height: 1.5em;
-		font-weight: 300;
-		opacity: 0.8;
-		margin-top: 10px;
-		margin-right: 40px;
+		width: 100%;
 	}
-	.text-segment div{
-		padding: 20px;
-	}
+	#about-us{
+	padding: 20px;
+}
+}
+
+.text-segment div{
+	padding: 20px;
+}
 

@@ -13,11 +13,19 @@
 			switch ($page) {
 				case 'about':
 					background_img("http://africa-facts.org/wp-content/uploads/2015/01/african-kids.jpg");
-
 					include 'public/inc/pages/about.php';
 					break;
 				case 'index':
 					echo 'home';
+					break;
+				case 'contact':
+					echo 'contact';
+					break;
+				case 'get-involved':
+					echo 'get involved';
+					break;
+				case 'trustees':
+					echo 'trustees';
 					break;
 				default:
 					# code...

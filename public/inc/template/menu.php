@@ -12,7 +12,7 @@
 
 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("trustees")?>">trustees</a></li>
 
-			<li><a href="<?php echo "index.php?page=". htmlspecialchars("events")?>">events</a></li>
+<!-- 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("events")?>">events</a></li> -->
 			
 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("contact")?>">Contact</a></li>
 
