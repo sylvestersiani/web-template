@@ -3,7 +3,9 @@
 	render_header('header');
 ?>
 
-
+<section>
+	
+</section>
 
 
 <?php
