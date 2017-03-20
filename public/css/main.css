@@ -23,6 +23,13 @@ header{
 
 }
 
+.logo {
+	background: url('../img/M7QaK_xk.jpg') no-repeat 0 0;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+
 nav {
 	text-align: right;
 }
@@ -33,15 +40,6 @@ nav a{
 	color: blue;
 	text-transform: uppercase;
 	text-decoration: none;
-}
-
-nav > .logo {
-	background: url('/img/M7QaK_xk,jpg') no-repeat 0 0;
-	height: 40px;
-	width: 40px;
-	margin-top: 20%;
-	background-size: contain;
-	display: inline-block;
 }
 
 nav #menu-links{
