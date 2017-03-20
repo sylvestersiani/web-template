@@ -4,7 +4,9 @@
 ?>
 
 
-
+<section>
+	
+</section>
 
 <?php
 	render_template('footer');
