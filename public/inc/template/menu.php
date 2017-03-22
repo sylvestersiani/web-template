@@ -1,6 +1,6 @@
 <header>
 	<div id="company-logo">
-		<div class="logo"></div>
+		<a href="#"><div class="logo"></div></a>
 	</div>
 	<nav>
 		<ul id="menu-links" >

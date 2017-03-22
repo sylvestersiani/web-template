@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -14,32 +16,64 @@
 
 
 header{
-	height: 60px;
-	background-color: green;
+	height: 80px;
+	background-color: white;
 	border-bottom: 4px solid gold;
+    padding: 8px 0;
 }
 
 #company-logo{
-	background-color: red;
 	width: 20%;
-	height: 60px;
 	float: left;
 
 }
 
 .logo {
-	background: url('../img/M7QaK_xk.jpg') no-repeat 0 0;
-	height: 40px;
-	width: 40px;
+	background: url('../img/M7QaK_xk_1.svg') no-repeat 0 0;
+	height: 80px;
+	width: 80px;
 	display: inline-block;
+	margin: 0 0 0 15%;
+}
+
+nav#mobile-menu {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+nav#mobile-menu > #menu-links{
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    background-color: #fafafa;
+    padding: 2em 0 0 1em;
+    margin: 8px 0;
+    overflow-y: scroll;
+}
+
+nav#mobile-menu > #menu-links > li{
+	margin: 10px 5px;
+}
+
+nav ul#menu-links.momento-x {
+    background: url(../img/M7QaK_xk_1.svg) no-repeat 0 0;
+    float: right;
+    font-size: 0;
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
+	width: 80%;
+	float: left;
 	text-align: right;
 }
 nav a{
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
 	font-size: 1em;
 	color: blue;
 	text-transform: uppercase;
@@ -47,20 +81,16 @@ nav a{
 }
 
 nav #menu-links{
-	width: 80%;
-	float: left;
-	background-color: white;
     padding: 2em 0em;
-
+    margin: 0 5% 0 0;
 }
+
 nav #menu-links li{
 	list-style: none;
 	display: inline-block;
 	margin: 0 5px;
 
 }
-
-
 
 
 
