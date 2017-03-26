@@ -8,10 +8,13 @@ function trustees($name, $title, $image="#", $text=''){
 				<h1>
 					<?php 
 						if (isset($name) && isset($title)) {
-							echo $name . ' - ' . $title;
+							echo $name . ' <br /> ' . '<span style="font-size: 14px;">' . $title .'</span>';
 						}else{echo 'Staff';}
 					?>	
 				</h1>
+			</div>
+			<img src="<?php isset($image)? print($image): '#'; ?>">
+			<div class="trustess-details">
 				<p>
 					<?php 
 						if (isset($text)) {
@@ -21,7 +24,6 @@ function trustees($name, $title, $image="#", $text=''){
 				</p>
 
 			</div>
-			<img src="<?php isset($image)? print($image): '#'; ?>">
 		</div>
 	</div>
 
