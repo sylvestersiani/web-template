@@ -144,3 +144,51 @@ nav #menu-links li.mobile-menu{
 	padding: 20px;
 }
 
+
+.trustees{
+	height: auto;
+	background-color: black;
+	color: #fff;
+	float: left;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.trustees > div{
+	margin: auto;
+	width: 90%;
+	padding: 20px;	
+}
+
+.trustess-details{
+	width: 60%;
+	float: left;
+	margin-right: 30px;
+	overflow: none;
+}
+
+.trustess-details > h1{
+	margin-bottom: 20px;
+}
+
+.trustees img{
+	float: right;
+	width:auto;
+	height: 250px;
+}
+
+@media (max-width: 800px) {
+	.trustees {
+		height: auto;
+	}
+	.trustess-details{
+		width: 100%;
+		float: none;
+	}
+	.trustees img{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+}
