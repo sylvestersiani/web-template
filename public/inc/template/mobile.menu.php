@@ -3,9 +3,10 @@
 		<a href="#"><div class="logo"></div></a>
 	</div>
 	<nav>
-		<ul id="menu-links" class="momento">
+		<ul id="menu-links">
 			<li>
-				<a href="#" class="trigger" )?>Menu</a>
+				<a href="#" class="trigger" )>Menu</a>
+				<i class="momento fa fa-times" aria-hidden="false"></i>
 			</li>
 		</ul>
 	</nav>

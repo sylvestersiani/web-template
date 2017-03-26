@@ -36,8 +36,10 @@ header{
 	margin: 0 0 0 15%;
 }
 
+body.noscroll { overflow: hidden; }
+
 nav#mobile-menu {
-	display: block;
+	display: none;
 	width: 100%;
 	text-align: center;
 }
@@ -56,14 +58,14 @@ nav#mobile-menu > #menu-links > li{
 	margin: 10px 5px;
 }
 
-nav ul#menu-links.momento-x {
-    background: url(../img/M7QaK_xk_1.svg) no-repeat 0 0;
+nav #menu-links i.momento.fa.fa-times {
+    display: none;
     float: right;
-    font-size: 0;
-    height: 80px;
-    width: 80px;
+    font-size: 1em;
+    color: blue;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 nav {
@@ -92,7 +94,9 @@ nav #menu-links li{
 
 }
 
-
+nav #menu-links li.mobile-menu{
+	display: none;
+}
 
 .text-segment{
 	background-color: #fff;
@@ -114,7 +118,21 @@ nav #menu-links li{
 	}
 	#about-us{
 	padding: 20px;
-}
+	}
+
+	nav#mobile-menu #menu-links li {
+		display: block;
+	}
+
+	nav #menu-links li{
+	display: none;
+
+	}
+
+	nav #menu-links li.mobile-menu{
+		display: inline-block;
+	}
+
 }
 
 .text-segment div{

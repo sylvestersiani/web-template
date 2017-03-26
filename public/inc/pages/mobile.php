@@ -19,6 +19,7 @@
 	<meta name="keywords" content=".......">
 	
 	<link rel="stylesheet" type="text/css" href="../../css/main.css">
+	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
 
 	<script src="//code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -35,23 +36,28 @@
 <footer id="footer">
 	
 </footer>
+<script>
+$(document).ready(function(){
+    $(".trigger").click(function(){
+        $(".trigger").toggle();
+        $(".momento").toggle();
+        $("#mobile-menu").toggle("slow");
+        $('body').addClass('noscroll');
+    });
+});
+</script>
 
 <script>
-	$(function() {
-    	$('.trigger').click(function() {
-        	$(".momento").switchClass("momento",'momento-x', 'fast', "" );
-            return false;
-        });
+$(document).ready(function(){
+    $(".momento").click(function(){
+        $(".trigger").toggle();
+        $(".momento").toggle();
+        $("#mobile-menu").toggle();
+        $('body').removeClass('noscroll');
     });
+});
 </script>
-<script>
-	$(function() {
-    	$('ul#menu-links').click(function() {
-        	$(".momento-x").switchClass("momento-x",'momento', 'fast', "" );
-            return false;
-        });
-    });
-</script>
+
 <!--Javascript-->
 </body>
 </html>
