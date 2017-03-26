@@ -18,7 +18,7 @@
 header{
 	height: 80px;
 	background-color: white;
-	border-bottom: 4px solid gold;
+	border-bottom: 4px solid #BF8D34;
     padding: 8px 0;
 }
 
@@ -63,7 +63,7 @@ nav #menu-links i.momento.fa.fa-times {
     display: none;
     float: right;
     font-size: 1em;
-    color: blue;
+    color: #202758;
     margin: 0;
     padding: 0;
     cursor: pointer;
@@ -78,7 +78,7 @@ nav a{
 	font-family: 'Roboto', sans-serif;
 	font-weight:700;
 	font-size: 1em;
-	color: blue;
+	color: #202758;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -147,12 +147,15 @@ nav #menu-links li.mobile-menu{
 
 .trustees{
 	height: auto;
-	background-color: black;
+	background-color: #202758;
 	color: #fff;
 	float: left;
-	margin-top: 20px;
 	padding: 20px;
-	border-radius: 5px;
+	border-bottom: 4px solid #BF8D34;
+}
+
+.trustees:fisrt-child {
+	margin-top: 20px;
 }
 
 .trustees > div{
