@@ -3,11 +3,11 @@
 	render_header('header');
 ?>
 
-
 <section>
 	<?php
 		if (isset($_GET['page'])) {
 			$page = $_GET['page'];
+
 
 
 			switch ($page) {
