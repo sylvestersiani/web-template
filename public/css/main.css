@@ -112,7 +112,11 @@ nav #menu-links li.mobile-menu{
 	margin-top: 10px;
 }
 
-
+@media (min-width: 600px) {
+	nav#mobile-menu {
+	    display: none !important;
+	}
+}
 @media (max-width: 600px) {
 	.text-segment{
 		width: 100%;
