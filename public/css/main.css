@@ -52,6 +52,7 @@ nav#mobile-menu > #menu-links{
     padding: 2em 0 0 1em;
     margin: 8px 0;
     overflow-y: scroll;
+    z-index: 1000;
 }
 
 nav#mobile-menu > #menu-links > li{
