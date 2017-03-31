@@ -25,4 +25,5 @@
 </head>
 <body>
 <div class="wrapper">
+	<?php require 'donate.php';  ?>
 	<?php require 'menu.php';  ?>
