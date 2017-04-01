@@ -35,14 +35,19 @@ section#alert{
 }
 
 .tagline p {
+	font-family: 'Roboto', sans-serif;
     font-size: .8em;
     letter-spacing: .1em;
+    line-height: 1.45em;
 }
 
 #pledge {
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
     font-size: 1.2em;
     height: auto;
     width: auto;
+    color: #ffffff;
 	float: right;
 	border-radius: 5%;
     box-sizing: initial;
@@ -210,6 +215,7 @@ nav #menu-links li.mobile-menu{
 	float: left;
 	margin-right: 30px;
 	overflow: none;
+	line-height: 1.2em;
 }
 
 .trustess-details > h1{
@@ -220,7 +226,8 @@ nav #menu-links li.mobile-menu{
 .trustees img{
 	float: right;
 	width:auto;
-	height: 250px;
+	height: 230px;
+	width: 20%;
 }
 
 @media (max-width: 800px) {
@@ -235,5 +242,41 @@ nav #menu-links li.mobile-menu{
 		width: 100%;
 		height: auto;
 		float: none;
+		margin-bottom: 20px;
 	}
+}
+
+footer {
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding: 1.5em 0;
+}
+
+.copyright {
+	float: left;
+	margin-left: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size: .9em;
+}
+
+.directory {
+	float: right;
+	margin-right: 2%;
+}
+
+.directory li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.directory a{
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size: .9em;
+	color: #BF8D34;
+	text-transform: uppercase;
+	text-decoration: none;
 }
