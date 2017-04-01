@@ -1,60 +1,4 @@
 
-<style type="text/css">
-	.trustees{
-		
-		height: 350px;
-		background-color: black;
-		color: #fff;
-		margin-top: 20px;
-		border-radius: 5px;
-
-	}
-
-.trustees > div{
-	margin: auto;
-	width: 90%;
-	padding: 20px;
-	
-}
-
-.trustess-details{
-	width: 60%;
-	float: left;
-	margin-right: 30px;
-	overflow: none;
-}
-
-.trustess-details > h1{
-	margin-bottom: 20px;
-}
-
-.trustees img{
-	float: right;
-	width:auto;
-	height: 250px;
-}
-
-@media (max-width: 800px) {
-	.trustees {
-		height: auto;
-	}
-	.trustess-details{
-		width: 100%;
-		float: none;
-	}
-	.trustees img{
-		width: 100%;
-		height: auto;
-		float: none;
-	}
-}
-
-
-</style>
-
-
-
-
 <?php 
 function trustees($name, $title, $image="#", $text=''){
 ?>
@@ -64,10 +8,13 @@ function trustees($name, $title, $image="#", $text=''){
 				<h1>
 					<?php 
 						if (isset($name) && isset($title)) {
-							echo $name . ' - ' . $title;
+							echo $name . ' <br /> ' . '<span style="font-size: 14px;">' . $title .'</span>';
 						}else{echo 'Staff';}
 					?>	
 				</h1>
+			</div>
+			<img src="<?php isset($image)? print($image): '#'; ?>">
+			<div class="trustess-details">
 				<p>
 					<?php 
 						if (isset($text)) {
@@ -77,7 +24,6 @@ function trustees($name, $title, $image="#", $text=''){
 				</p>
 
 			</div>
-			<img src="<?php isset($image)? print($image): '#'; ?>">
 		</div>
 	</div>
 
