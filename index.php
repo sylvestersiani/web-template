@@ -14,7 +14,7 @@
 					include 'public/inc/pages/about.php';
 					break;
 				case 'index':
-					echo 'home';
+					include 'public/inc/pages/home.php';
 					break;
 				case 'contact':
 					include 'public/inc/pages/contact.php';
