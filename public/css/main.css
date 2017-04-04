@@ -5,14 +5,23 @@
 	padding: 0;
 }
 
+body{
+}
 .wrapper{
-	max-width: 1200px;
-	margin: auto;
+	min-height: 100%;
+	position: relative;
+	background-color: red;
+	bottom: 0;
 }
 
-/*section{
-	max-width: 900px;
-}*/
+.page-content{
+	max-width: 1200px;
+	margin: 0 auto;
+		padding-bottom: 45px;
+		background-color: orange;
+		min-height: 100%;
+		bottom: 0;
+}
 
 section#alert{
 	width: 100%;
@@ -247,10 +256,11 @@ nav #menu-links li.mobile-menu{
 }
 
 footer {
+	height: 40px;
 	width: 100%;
-	float: left;
-	background-color: #ffffff;
-	padding: 1.5em 0;
+	background-color: pink;
+	bottom: 0;
+	clear:right;
 }
 
 .copyright {

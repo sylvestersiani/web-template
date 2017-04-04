@@ -3,7 +3,7 @@
 	render_header('header');
 ?>
 
-<section>
+<section class="page-content">
 	<?php
 		if (isset($_GET['page'])) {
 			$page = $_GET['page'];
@@ -14,7 +14,7 @@
 					include 'public/inc/pages/about.php';
 					break;
 				case 'index':
-					echo 'home';
+					include 'public/inc/pages/home.php';
 					break;
 				case 'contact':
 					include 'public/inc/pages/contact.php';
@@ -26,7 +26,7 @@
 					include 'public/inc/pages/trustees.php';
 					break;
 				default:
-					# code...
+					include 'public/inc/pages/home.php';
 					break;
 			}
 
