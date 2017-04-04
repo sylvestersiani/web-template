@@ -1,17 +1,13 @@
 
 <footer id="footer">
 	<div class="copyright">
-		<p>Copyright 2017 NAME</p>
+		<p> &copy; <?php echo date('d-M-Y') . ' Kwetu Charitas'; ?></p>
 	</div>
 	<div class="directory">
 		<ul>
-			<li><a href="<?php echo "index.php?page=". htmlspecialchars("index")?>">accessibility</a></li>
+
 
 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("about")?>">contact Us</a></li>
-
-			<li><a href="<?php echo "index.php?page=". htmlspecialchars("get-involved")?>">privacy</a></li>
-
-			<li><a href="<?php echo "index.php?page=". htmlspecialchars("trustees")?>">policy</a></li>
 
 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("trustees")?>">sitemap</a></li>
 		</ul>
