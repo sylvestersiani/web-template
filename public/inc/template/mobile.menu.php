@@ -1,6 +1,6 @@
 <header>
 	<div id="company-logo">
-		<a href="#"><div class="logo"></div></a>
+		<a href="index.php?page=index"><div class="logo"></div></a>
 	</div>
 	<nav>
 		<ul id="menu-links">
