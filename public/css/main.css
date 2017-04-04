@@ -3,6 +3,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: helvetica, 'sans-serif';
 }
 
 body{
@@ -10,17 +11,57 @@ body{
 .wrapper{
 	min-height: 100%;
 	position: relative;
-	background-color: red;
 	bottom: 0;
 }
 
 .page-content{
-	max-width: 1200px;
-	margin: 0 auto;
-		padding-bottom: 45px;
-		background-color: orange;
+	margin: 0 40px;
 		min-height: 100%;
 		bottom: 0;
+
+}
+.landing-page{
+	height: 600px;
+	padding: 40px;
+	border-bottom: 6px solid #BF8D34;
+	margin-bottom: 40px;
+}
+.landing-page h2{
+	margin-top: 220px;
+	font-weight: bolder;
+	line-height: 60px;
+	font-size: 48px;
+	color: #000;
+	text-align: center;
+}
+.landing-segment2{
+	height: 300px;
+}
+.landing-segment2 h4{
+	margin-bottom: 20px;
+}
+
+h4{
+	font-size: 28px;
+}
+.notice{
+	width: 49%;
+	background-color: #fff;
+	float: left;
+	clear: both;
+	height: 100%;
+}
+.newsletter{
+	width: 49%;
+	float: right;
+	height: 100%;
+}
+.newsletter form {
+	margin: 20px auto;
+	width: 300px;
+	display: block;
+	padding: 0 auto;
+
 }
 
 section#alert{
