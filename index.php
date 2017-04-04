@@ -7,7 +7,7 @@
 	<?php
 		if (isset($_GET['page'])) {
 			$page = $_GET['page'];
-
+			
 			switch ($page) {
 				case 'about':
 					background_img("http://africa-facts.org/wp-content/uploads/2015/01/african-kids.jpg");
