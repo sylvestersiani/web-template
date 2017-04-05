@@ -20,7 +20,7 @@
 					include 'public/inc/pages/contact.php';
 					break;
 				case 'get-involved':
-					echo 'get involved';
+					include 'public/inc/pages/get-involved.php';
 					break;
 				case 'trustees':
 					include 'public/inc/pages/trustees.php';
