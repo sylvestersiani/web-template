@@ -123,14 +123,14 @@ h4{
 	background-color: green;
 	margin: 0 auto;
 }
-.newsletter form input{
-	width: 70%;
-	height: 30px;
-}
-.newsletter form button{
-	width: 25%;
+
+.newsletter  button{
+	width: 30%;
 	background-color: white;
-	height: 30px;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: none;
+	cursor: pointer;
 }
 
 section#alert{
