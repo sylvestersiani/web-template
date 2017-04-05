@@ -15,9 +15,7 @@
 	<div class="newsletter">
 		<h4>Stay Informed</h4>
 		<p>Enter your email to receive relevant messaging tips  and examples. You can unsubscribe at any time.</p>
-		<form action="GET" method="" >
-			<input type="email" name="email" placeholder="Enter your email">
-			<button type="submit">Submit</button>
-		</form>
+		<a href="http://eepurl.com/cG9oUD"><button>Subscribe</button></a>
+
 	</div>
 </div>
