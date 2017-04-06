@@ -16,7 +16,7 @@
 		</div>
 	</div>
 	<div class="newsletter">
-		<div class="core">
+		<div class="core" >
 			<h4>Stay Informed.</h4>
 			<p>Enter your email to receive relevant messaging tips  and examples. You can unsubscribe at any time.</p>
 			<div class="subscribe">

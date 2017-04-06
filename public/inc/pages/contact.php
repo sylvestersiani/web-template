@@ -11,7 +11,7 @@
 
 	<div class="contact-details">
 		<div class="info">
-			<p>example@email.com</p>
+			<p>example@email.com </p>
 		</div>
 	</div>
 
