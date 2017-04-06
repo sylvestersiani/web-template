@@ -19,9 +19,11 @@
 	<meta name="keywords" content=".......">
 	
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
+	<link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
+	<?php require 'donate.php';  ?>
 	<?php require 'menu.php';  ?>
