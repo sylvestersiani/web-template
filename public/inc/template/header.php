@@ -1,4 +1,6 @@
+<?php ob_start(); ?>
 <!doctype html>
+
 <!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="en"> <![endif]-->
@@ -19,9 +21,11 @@
 	<meta name="keywords" content=".......">
 	
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
+	<link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
+	<?php require 'donate.php';  ?>
 	<?php require 'menu.php';  ?>
