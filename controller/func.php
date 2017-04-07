@@ -16,5 +16,8 @@ function render_page($page, $title='template'){
 
 /// changing background image
 	function background_img($link){
-				echo "<style> body{background: url(". $link. ")} </style>";
+				echo "<style> body{background: url(". $link. ");
+									background-repeat: no-repeat;
+									background-size: cover;
+									} </style>";
 			}
