@@ -3,7 +3,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: helvetica, 'sans-serif';
+	font-family: 'Roboto', 'sans-serif';
 }
 
 
@@ -56,6 +56,11 @@ section#alert{
     font-size: .8em;
     letter-spacing: .1em;
     line-height: 1.45em;
+}
+
+
+.core  p {
+		line-height: 28px;
 }
 
 #pledge {
@@ -230,10 +235,11 @@ nav #menu-links li.mobile-menu{
 	float: left;
 }
 .main-seg h2{
-	font-size: 64px;
+	font-size: 52px;
 	padding:20px 0 20px 0;
-	line-height: 78px;
+	line-height: 64px;
 	float: left;
+	font-weight: 900;
 }
 
 .secondary-seg{
@@ -254,6 +260,7 @@ nav #menu-links li.mobile-menu{
 .secondary-seg p {
 	font-size: 18px;
 	color: #ffffff;
+	line-height: 32px;
 }
 
 .secondary-seg a {
@@ -506,6 +513,8 @@ form{
 	-webkit-border :none;
 	padding: 1em .5em;
 }
+
+#form-opt input{}
 
 #form-opt textarea{
 	height: 80px;

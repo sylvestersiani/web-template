@@ -19,6 +19,7 @@
 	<meta itemprop="name" content="Alphabet">
 	<meta itemprop="description" content=".......">
 	<meta name="keywords" content=".......">
+	<link rel="icon" type="image/png" href="public/img/favicon.gif">
 	
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 	<link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
