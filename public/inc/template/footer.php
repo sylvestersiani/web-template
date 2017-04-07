@@ -6,7 +6,7 @@
             <li><a href="#" target="_blank">Twitter</a></li>
             <li><a href="#" target="_blank">Facebook</a></li>
 			<li><a href="<?php echo "index.php?page=". htmlspecialchars("about")?>">contact Us</a></li>
-			<li><a href="<?php echo "index.php?page=". htmlspecialchars("trustees")?>">sitemap</a></li>
+			<li><a href="<?php echo "index.php?page=". htmlspecialchars("trustees")?>">webmail</a></li>
 
 		</ul>
 	</div>

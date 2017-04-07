@@ -35,7 +35,7 @@
 
 				<li><textarea type="text" name="query" placeholder="<?php isset($query_error)? print $query_error : print 'Share your views with us.'; ?>"><?php isset($query)? print $query: '' ;?></textarea></li>
 
-				<button type="submit">contact</button>
+				<button type="submit">submit</button>
 			</ul>
 		</form>
 	</div>
