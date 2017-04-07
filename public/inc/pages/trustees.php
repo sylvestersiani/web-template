@@ -3,7 +3,7 @@
 function trustees($name, $title, $image="#", $text=''){
 ?>
 	<div class="trustees">
-		<div>
+		<div class="inner-wrapper">
 			<div class="trustess-details">
 				<h1>
 					<?php 
