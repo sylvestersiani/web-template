@@ -1,8 +1,7 @@
 <div class="inner-wrapper hmp">
 	<div class="main-seg">
 		<h2>
-			"Serving the african comunity and other minority groups by
-			inspiring and motivating a revolutionary change in the way mental illness is percieved."
+			"Mental illness is not a taboo, and this is a fact we endeavour to spread across the African diaspora and the entire African continent through educating and uplifting one community at a time, starting in the heart of Africa<a style="color: #fff;text-decoration: none;" href="index.php?">.</a>"
 		</h2>
 	</div>
 

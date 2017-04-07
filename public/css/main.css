@@ -135,7 +135,7 @@ nav#mobile-menu > #menu-links{
     width: 100%;
     position: absolute;
     background-color: #fafafa;
-    padding: 2em 0 0 1em;
+    padding: 2em 0 0 0;
     margin: 7px 0;
     overflow-y: scroll;
     z-index: 1000;
@@ -258,11 +258,11 @@ nav #menu-links li.mobile-menu{
 }
 
 .main-seg h2{
-	font-size: 64px;
+	font-size: 62px;
 	color: #ffffff;
-	padding:80px 0;
+	padding:60px 0;
 	margin: 2%;
-	line-height: 64px;
+	line-height: 70px;
 	float: left;
 	font-weight: 900;
 }
