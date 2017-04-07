@@ -270,14 +270,14 @@ nav #menu-links li.mobile-menu{
 
 .notice{
 	width: 50%;
-	height: 300px;
+	height: 340px;
 	background-color: #354192;
 	float: left;
 }
 
 .newsletter{
 	width: 50%;
-	height: 300px;
+	height: 340px;
 	background-color: #3a47a0;
 	float: right;
 }
@@ -339,8 +339,8 @@ nav #menu-links li.mobile-menu{
     }
 
     .secondary-seg p {
-    	font-size: 12px;
-    	line-height: 17px;
+    	font-size: 14px;
+    	line-height: 24px;
 	}
 
 	.subscribe{
@@ -356,7 +356,7 @@ nav #menu-links li.mobile-menu{
 
     .secondary-seg p {
     	font-size: 15px;
-    	line-height: 17px;
+    	line-height: 22px;
 	}
 
 	.subscribe{
@@ -372,7 +372,7 @@ nav #menu-links li.mobile-menu{
 
     .secondary-seg p {
     	font-size: 17px;
-    	line-height: 18px;
+    	line-height: 26px;
 	}
 
 	.subscribe{
