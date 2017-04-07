@@ -8,20 +8,20 @@
 				<div class="entree">
 					<h2>Dalie</h2>
 					<h3>Co-Founder &amp; CEO</h3>
-					<p>example@mail.com</p>
+					<p>dalie.mumba@kwetu.org.uk</p>
 				</div>
 
 				<div class="entree">
 					<h2>Lydia Mumba</h2>
 					<h3>Co-Founder &amp; Trustee</h3>
-					<p>example@mail.com</p>
+					<p>lydia.mumba@kwetu.org.uk</p>
 				</div>
 
-				<div class="entree">
+				<!-- <div class="entree">
 					<h2>Michael Otadenede</h2>
 					<h3>Trustee &amp; Acting Chair</h3>
 					<p>example@mail.com</p>
-				</div>
+				</div> -->
 			</div>
 		</div>
 

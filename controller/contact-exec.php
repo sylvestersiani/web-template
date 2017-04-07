@@ -56,9 +56,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 			#formulating the email
 	
-		$to = 'dmumba89@gmail.com' ;
+		$to = 'info@kwetu.org.uk' ;
 		$header = "From: $email" . "\r\n";
-		$subject = 'IMPORTANT! Email form submition by ' . $name ;
+		$headers .= 'Cc: dalie.mumba@kwetu.org.uk' . "\r\n";
+		$headers .= 'Cc: lydia.mumba@kwetu.org.uk' . "\r\n";
+		$subject = 'IMPORTANT! Kwetu Website form submition by ' . $name ;
 		// putting all input fields in an array so it could be attached within the email
 		$body = '<b>Email by:</b> ' . $name . "\n" . '<b>Tel Number </b>' . $tel . "\n\n" . $query. "\n";
 
@@ -76,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $content = wordwrap($content, 70 );
 
 			if(mail($email,$confirmation,$content,$us)){
-				header('location: ./index.php?page=form_success');
+				header('location: ./index.php?page=index');
 			}else {
 				$warning = 'oops, something went wrong somewhere';
 			}
