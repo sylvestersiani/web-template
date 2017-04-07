@@ -2,12 +2,11 @@
 	<div class="inner-wrapper">
 		<div class="text-segment">
 			<div>
-			<h1>Our Story</h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-			It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p>
+			<h1>Our Story</h1> <br>
+			<p>In 2015, Mr Mumba fell terribly ill in the Democratic Republic of Congo, where he lost his ability to speak, walk and self-care overnight. Completely baffled as to what had happened to him, his family immediately took action to bring this father, brother, uncle and husband back to the UK for immediate medical attention. Upon a series of medical examinations carried out in leading hospitals in London, Mr Mumba was finally given an official diagnosis of Alzheimer&#39;s disease. However, his immediate family suffered in silence tremendously due to the culture of shame which currently exists within the Congolese community when it comes to mental illness. Mental illness is not a taboo, and this is a fact we endeavour to spread across the African diaspora and the entire African continent through educating and uplifting one community at a time, starting in the heart of Africa - that is the Democratic Republic of Congo. Journey with us and join this ground-breaking movement of change. No-one deserves to suffer the burden of a mental health disorder or illness alone.</p>
+			<br> <hr> <br>
+			<h1>Mission:</h1><br>
+			<p>Birthed in recognition of Mr Mumba Wa Mumba, Kwetu is an up and coming mental health alleviation charity founded in the UK, which seeks to erase the stigma of mental illness that exists in the African society of the UK and the wider world through education, advocacy and services. Serving the African community and other minority groups by inspiring and motivating a revolutionary change in the way mental illness is perceived, we aim to connect minds and support families battling the stigma of mental health. Kwetu will challenge existing negative mindsets, educating in the most empowering forms we can, and giving insight into the lives and experiences of sufferers to encourage our hard-to-reach communities to speak out, reach out and access the help available. Kwetu&#39;s mission is to better the lives of mental health sufferers and their loved ones within the African community at large through providing first world care services in the third world, and equipping people with the knowledge, the skills and the tools to support sufferers and completely eradicate the stigma towards mental illness, which exists within the community as a whole.</p>
 		</div>
 	</div>
 </div>

@@ -1,8 +1,8 @@
 <div class="inner-wrapper hmp">
 	<div class="main-seg">
 		<h2>
-			"Serving the african comunity and other minority groups <br>by
-			inspiring and motivating <br> a revolutionary change in the way mental illness is percieved."
+			"Serving the african comunity and other minority groups by
+			inspiring and motivating a revolutionary change in the way mental illness is percieved."
 		</h2>
 	</div>
 
