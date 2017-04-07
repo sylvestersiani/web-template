@@ -507,6 +507,8 @@ form{
 	padding: 1em .5em;
 }
 
+#form-opt input{}
+
 #form-opt textarea{
 	height: 80px;
 }
