@@ -38,6 +38,5 @@
 				<button type="submit">contact</button>
 			</ul>
 		</form>
-		
 	</div>
 </div>
