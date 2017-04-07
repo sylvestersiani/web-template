@@ -1,4 +1,6 @@
+<?php ob_start(); ?>
 <!doctype html>
+
 <!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="en"> <![endif]-->
@@ -17,6 +19,7 @@
 	<meta itemprop="name" content="Alphabet">
 	<meta itemprop="description" content=".......">
 	<meta name="keywords" content=".......">
+	<link rel="icon" type="image/png" href="public/img/favicon.gif">
 	
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 	<link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">

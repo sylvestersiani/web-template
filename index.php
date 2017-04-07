@@ -27,9 +27,10 @@
 					break;
 				default:
 					include 'public/inc/pages/home.php';
-					break;
 			}
 
+		}else{
+			include 'public/inc/pages/home.php';
 		}
 	?>
 </section>
